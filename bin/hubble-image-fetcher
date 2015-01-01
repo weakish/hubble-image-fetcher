@@ -1,0 +1,3 @@
+require 'hubble-image-fetcher'
+
+$stdin.each_line {|line| puts	HubbleImageFetcher.get_link(line) }
