@@ -1,5 +1,7 @@
 # Hubble image fetcher
 
+[![Gem Version](https://badge.fury.io/rb/hubble-image-fetcher.svg)](http://badge.fury.io/rb/hubble-image-fetcher)
+
 Given a list of image page urls of [Hubble website](http://www.spacetelescope.org/),
 outputs a list of download urls for original images.
 
