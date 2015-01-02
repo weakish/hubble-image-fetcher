@@ -6,7 +6,7 @@ task :default => :test
 
 desc 'Run doctests'
 task :test do
-  sh 'bundle exec rubydoctest lib/*.rb'
+  sh 'bundle exec yard doctest'
 end
 
 desc 'Generate docs'
